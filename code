@@ -4,7 +4,7 @@ def took_st(player, sticks):
         try:
             p = int(input(player + ", возьмите палочки: "))
         except ValueError:
-            print("\nвведите число, а не хуй") 
+            print("\nвведите число") 
             continue                   
         if sticks - p < 0:
             print("\nвыберете из доступного количества")
